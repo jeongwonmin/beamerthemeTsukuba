@@ -13,15 +13,15 @@
 このフォルダの下に、color, inner, outer, font, themeという5つのフォルダがあります。カラーテーマはcolorフォルダに、themeと画像ファイル(png, eps)はthemeフォルダの下にそれぞれコピーします。
 
 ```
-$ sudo cp beamercolorthemeorchidUT.sty usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color
+$ sudo cp beamercolorthemeorchidUT.sty /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color
 
-$ sudo cp beamercolorthemewhaleUT.sty usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color
+$ sudo cp beamercolorthemewhaleUT.sty /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color
 
-$ sudo cp beamerthemeTsukuba.sty usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
+$ sudo cp beamerthemeTsukuba.sty /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
 
-$ sudo cp imagine_white.png usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
+$ sudo cp imagine_white.png /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
 
-$ sudo cp tsukuba_logo_kanji.eps usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
+$ sudo cp tsukuba_logo_kanji.eps /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
 ```
 
 ファイルのコピーが終わったら、一回texをビルドする必要があります。ビルドのコマンドは次の通りです。
