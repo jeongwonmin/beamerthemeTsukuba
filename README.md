@@ -17,7 +17,7 @@ $ sudo cp beamercolorthemeorchidUT.sty /usr/local/texlive/2017/texmf-dist/tex/la
 
 $ sudo cp beamercolorthemewhaleUT.sty /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color
 
-$ sudo cp beamerthemeTsukuba.sty /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
+$ sudo cp beamerthemeTsukubaMin.sty /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
 
 $ sudo cp imagine_white.png /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme
 
