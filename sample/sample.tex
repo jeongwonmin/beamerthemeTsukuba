@@ -1,0 +1,43 @@
+\documentclass[dvipdfmx,11pt]{beamer}
+\usepackage{bxdpx-beamer}% dvipdfmxなので必要
+\usepackage{pxjahyper}% 日本語で'しおり'したい
+\usepackage{amsmath, amssymb, amsthm}
+
+\renewcommand{\kanjifamilydefault}{\gtdefault}% 既定をゴシック体に
+
+\usetheme{Tsukuba}
+
+\theoremstyle{plain}
+\newtheorem{theo}{定理}
+\newtheorem{propo}{命題}
+\newtheorem{lemm}{補題}
+
+%タイトル
+\title{サンプル}
+\subtitle{sample}
+\author{閔 正媛}
+\date{2017/11/13}
+\begin{document}
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}{自己紹介}
+\begin{itemize}
+\item 2007年　筑波大学理工学群数学科入学
+\item 2011年　筑波大学卒業
+\item 大学1年のころ「ケーナ」という南米の管楽器に出会う
+\end{itemize}
+\end{frame}
+
+\begin{frame}{ダミー定理ページ}
+\begin{theo}
+dummy theorem ダミー定理
+\end{theo}
+\begin{proof}
+ダミー証明
+\end{proof}
+\end{frame}
+
+\end{document}
+
