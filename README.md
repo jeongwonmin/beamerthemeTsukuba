@@ -30,7 +30,7 @@ $ sudo cp tsukuba_logo_kanji.eps /usr/local/texlive/2017/texmf-dist/tex/latex/be
 sudo mktexlsr
 ```
 
-`\usetheme{Tsukuba}`して、デフォルトで入っている他のテーマのように使えます。
+`\usetheme{Tsukuba}`して、デフォルトで入っている他のテーマと同じように使えます。
 
 ## 注意
 macでは、特にパッケージをインポートしなくてもpng, eps両方使えます。しかしwindowsだと`\usepackage[dvipdfmx]{graphicx}してあげないとpngが使えないかもしれません。texlive2014だと、まだwindowsではpngが使えなかったりしたんですが、最近はどうでしょうか。
