@@ -1,0 +1,64 @@
+% Copyright 2017 by Jeongwon Min
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\mode<presentation>
+
+%\RequirePackage[dvipdfmx]{graphicx}
+
+\newif\ifbeamer@secheader
+\beamer@secheaderfalse
+
+\DeclareOptionBeamer{secheader}{\beamer@secheadertrue}
+\ProcessOptionsBeamer
+
+\usecolortheme{orchidUT}
+\usecolortheme{whaleUT}
+\useoutertheme{infolines}
+
+\definecolor{utPurple}{RGB}{102, 0, 204}
+\setbeamercolor{title}{fg=utPurple}
+
+\ifbeamer@secheader\else\setbeamertemplate{headline}[default]\fi
+
+%%%%%%%%%%%%%%%%%%%%%title page%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\defbeamertemplate*{title page}{customized}[1][]
+{
+  \nointerlineskip
+  \leavevmode
+  \vspace{-2.05ex}
+  \hbox{
+  \hspace{-0.64cm}
+  \begin{beamercolorbox}[wd=.4\paperwidth, ht=\paperheight]{frametitle}
+  \includegraphics[width=4cm]{imagine_white_2.png}
+  \end{beamercolorbox}
+  \vbox{
+    %%%logo%%%
+    \begin{beamercolorbox}[wd=.57\paperwidth, ht=.15\paperheight, right]{}
+    \includegraphics[height=0.8cm]{tsukuba_logo_kanji.eps}
+    \end{beamercolorbox}
+    %%%title%%%
+    \begin{beamercolorbox}[wd=.55\paperwidth, ht=.85\paperheight, right]{}
+    \usebeamerfont{title}\inserttitle\par
+    \usebeamerfont{subtitle}\usebeamercolor{black}\insertsubtitle\par
+    \bigskip
+    \bigskip
+    \usebeamerfont{author}\insertauthor\par
+    \usebeamerfont{institute}\insertinstitute\par
+    \usebeamerfont{date}\insertdate\par
+    \usebeamercolor[fg]{titlegraphic}\inserttitlegraphic
+    \bigskip
+    \bigskip
+    \bigskip
+    \end{beamercolorbox}
+    }
+  }
+}
+
+\mode
+<all>
