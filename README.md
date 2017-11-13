@@ -35,7 +35,7 @@ sudo mktexlsr
 ## 注意
 macでは、特にパッケージをインポートしなくてもpng, eps両方使えます。しかしwindowsだと`\usepackage[dvipdfmx]{graphicx}してあげないとpngが使えないかもしれません。texlive2014だと、まだwindowsではpngが使えなかったりしたんですが、最近はどうでしょうか。
 
-もしそのような問題が発生するならば、`beamerthemeTsukuba.sty`ファイルの`\RequirePackage[dvipdfmx]{graphicx}`をコメントアウトしてください。(文頭の%を消すことを「コメントアウト」と言います)
+もしそのような問題が発生するならば、`beamerthemeTsukuba.sty` ファイルの `\RequirePackage[dvipdfmx]{graphicx}` をコメントアウトしてください。(文頭の%を消すことを「コメントアウト」と言います)
 
 ## ライセンス
 texのオリジナルパッケージなどは、GNU General Public LicenceあるいはLaTeX Project Public Licenseの基で配布・改変することができます。
