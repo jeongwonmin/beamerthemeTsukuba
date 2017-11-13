@@ -44,3 +44,8 @@ texのオリジナルパッケージなどは、GNU General Public Licenceある
 ```
 にbeamerのライセンスがあります。(windowsの場合はパスが違うかもしれませんが、texmf-dist以下はほぼ同じかと思います。)
 
+## Note
+実はすでに配布中の筑波大学beamerテーマもあったりします。
+http://www.im.uec.ac.jp/~stakahashi/j/beamerthemeTsukuba.html
+これをすでに使ってらっしゃる方も中にはいらっしゃるかもしれませんので、自分のテーマの名前には私の苗字であるMinをつけています。
+
